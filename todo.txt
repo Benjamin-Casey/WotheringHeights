@@ -1,0 +1,6 @@
+1. Make gameloop print tile text/string
+
+
+
+
+Build a UI with TKInter
