@@ -9,10 +9,10 @@ class Player:
         return self.hp > 0
 
     def moveNorth(self):
-        self.location = self.location[1] += 1
+        self.location[1] += 1
     def moveSouth(self):
-        self.location = self.location[1] -= 1
+        self.location[1] -= 1
     def moveEast(self):
-        self.location = self.location[0] += 1
+        self.location[0] -= 1
     def moveWest(self):
-        self.location = self.location[0] -= 1
+        self.location[0] -= 1
