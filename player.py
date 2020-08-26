@@ -16,3 +16,5 @@ class Player:
         self.location[0] -= 1
     def moveWest(self):
         self.location[0] -= 1
+
+player = Player()
