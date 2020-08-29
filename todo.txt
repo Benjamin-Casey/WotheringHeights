@@ -1,5 +1,6 @@
-1. Make gameloop print tile text/string
-
+Add the move_* functions to actions.py get_available_movement.
+    -> possibly get this from player.move_ functions although 
+    -> I don't think this will work.
 
 
 
