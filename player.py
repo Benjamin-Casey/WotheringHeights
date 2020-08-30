@@ -1,5 +1,3 @@
-# Player file
-
 class Player:
     def __init__(self):
         self.hp = 100
@@ -8,13 +6,14 @@ class Player:
     def isAlive(self):
         return self.hp > 0
 
-    def moveNorth(self):
+    def move_north(self):
         self.location[1] += 1
-    def moveSouth(self):
+    def move_south(self):
         self.location[1] -= 1
-    def moveEast(self):
+    def move_east(self):
         self.location[0] -= 1
-    def moveWest(self):
+    def move_west(self):
         self.location[0] -= 1
+
 
 player = Player()

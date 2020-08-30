@@ -1,7 +1,10 @@
-Add the move_* functions to actions.py get_available_movement.
-    -> possibly get this from player.move_ functions although 
-    -> I don't think this will work.
+Basic functionality:
+    Print commands in a more attractive way.
+    Adjacent tiles adds the opposite direction to what it should, e.g move south = move north, etc.
+    Allow the user to input a command based on information that is displayed in an attractive way.
 
-
-
-Build a UI with TKInter
+Then:
+    Add something for the player to do. NPCs to interact with for example.
+    Locked doors, keys, inventory, etc.
+    Enemies, health, weapons, armor, items, consumables, effects, alchemy, magic
+    Build a UI with TKInter
